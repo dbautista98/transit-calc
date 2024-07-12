@@ -16,7 +16,7 @@ These coordinates should be in the form J2000, I have not tested this in Galacti
 
 The right ascension of the source should be in units of hour, minute, second (HMS). This is the form that they would appear in a catalog file or on SIMBAD. 
 
-An RA from a catalog would look something like `10:44m:50.96` and would need to be converted to `10h44m50.96s` by deleting the semicolons and replacing them with d,m,s. 
+An RA from a catalog would look something like `10:44:50.96` and would need to be converted to `10h44m50.96s` by deleting the semicolons and replacing them with d,m,s. 
 
 The declination of the source should be in units of degree, minute, second (DMS). This is the form that they would appear in a catalog file or on SIMBAD. 
 
