@@ -20,7 +20,7 @@ An RA from a catalog would look something like `10:44m:50.96` and would need to 
 
 The declination of the source should be in units of degree, minute, second (DMS). This is the form that they would appear in a catalog file or on SIMBAD. 
 
-An RA from a catalog would look something like `24:47:45.4` and would need to be converted to `24d47m45.4s` by deleting the semicolons and replacing them with h,m,s. 
+A DEC from a catalog would look something like `24:47:45.4` and would need to be converted to `24d47m45.4s` by deleting the semicolons and replacing them with h,m,s. 
 
 
 Example output of a source that WOULD transit the beam during the observing window:
