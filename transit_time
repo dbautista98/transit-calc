@@ -1,0 +1,15 @@
+source ~dbautist/GSI/GSI/bin/activate
+
+if [ $# -eq 0 ];
+then
+    echo "$0: Missing arguments"
+    exit 1
+elif [ $# -eq 1 ];
+then
+    python3 ~dbautist/GSI/transit_elevation.py --help
+    exit 1
+elif [ $# -eq 4 ];
+then 
+    python3 ~dbautist/GSI/transit_elevation.py $1 $2 $3 $4
+    exit 1
+fi
