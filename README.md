@@ -20,7 +20,7 @@ The script will output three lines of information:
 
 Example output of a source that WOULD transit the beam during the observing window:
 
-    $ transit_time 2024-07-14T16:30:00 2024-07-14T17:30:00 10h44m50.96s 24d47m45.4s
+    $ ~dbautist/GSI/transit_time 2024-07-14T16:30:00 2024-07-14T17:30:00 10h44m50.96s 24d47m45.4s
     transit time: 2024-07-14T16:58:00.480
     az: 90.50056375743543 deg
     el: 42.80892655000921 deg
@@ -28,7 +28,7 @@ Example output of a source that WOULD transit the beam during the observing wind
 
 Example output of a source that WOULD NOT cross the beam during the observing window:
 
-    $ transit_time 2024-07-14T16:30:00 2024-07-14T17:30:00 10h44m50.96s 53d47m45.4s
+    $ ~dbautist/GSI/transit_time 2024-07-14T16:30:00 2024-07-14T17:30:00 10h44m50.96s 53d47m45.4s
     transit time: 2024-07-14T16:56:17.232
     az: 49.13687045647204 deg
     el: 50.49507113802659 deg
