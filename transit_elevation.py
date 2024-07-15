@@ -28,7 +28,7 @@ def get_time_and_el(tstart, tstop, RA, DEC):
     obs_time = Time(mjd_times, format="mjd")
 
     # define GBT location
-    GBT = EarthLocation(lat="38d25m59s", lon="-79d50m23s", height=808*u.m)
+    GBT = EarthLocation.of_site('Green Bank Telescope')
     aa = AltAz(location=GBT, obstime=obs_time)
     coord = SkyCoord(RA, DEC)
     altaz = coord.transform_to(aa)
